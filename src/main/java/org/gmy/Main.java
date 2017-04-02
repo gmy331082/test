@@ -11,7 +11,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class Main {
     public static void main(String args[]){
         WebDriver driver=new FirefoxDriver();
-        driver.get("http://www.baidu.com");
+        driver.get("http://www.baidu.com/");
         driver.findElement(By.xpath(".//*[@id='kw']")).sendKeys("aaaaa");
         driver.findElement(By.xpath(".//*[@id='su']")).click();
         //System.out.println(driver.getPageSource());
